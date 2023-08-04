@@ -48,6 +48,36 @@ function exibirNaTela(){
             <td><button onClick="adicionarEmpate(marcely)">Empate</button></td>
             <td><button onClick="adicionarDerrota(marcely)">Derrota</button></td>
         </tr>
+        <tr>
+            <td>${gabriel.nome}</td>
+            <td>${gabriel.vitoria}</td>
+            <td>${gabriel.empate}</td>
+            <td>${gabriel.derrota}</td>
+            <td>${gabriel.pontos}</td>
+            <td><button onClick="adicionarVitoria(gabriel)">Vitória</button></td>
+            <td><button onClick="adicionarEmpate(gabriel)">Empate</button></td>
+            <td><button onClick="adicionarDerrota(gabriel)">Derrota</button></td>
+        </tr>
+        <tr>
+            <td>${lucas.nome}</td>
+            <td>${lucas.vitoria}</td>
+            <td>${lucas.empate}</td>
+            <td>${lucas.derrota}</td>
+            <td>${lucas.pontos}</td>
+            <td><button onClick="adicionarVitoria(lucas)">Vitória</button></td>
+            <td><button onClick="adicionarEmpate(lucas)">Empate</button></td>
+            <td><button onClick="adicionarDerrota(lucas)">Derrota</button></td>
+        </tr>
+        <tr>
+            <td>${celiane.nome}</td>
+            <td>${celiane.vitoria}</td>
+            <td>${celiane.empate}</td>
+            <td>${celiane.derrota}</td>
+            <td>${celiane.pontos}</td>
+            <td><button onClick="adicionarVitoria(celiane)">Vitória</button></td>
+            <td><button onClick="adicionarEmpate(celiane)">Empate</button></td>
+            <td><button onClick="adicionarDerrota(celiane)">Derrota</button></td>
+        </tr>
     `
 }
 
